@@ -23,13 +23,19 @@ form="""<!DOCTYPE html><html>
         </style>
     </head>
     <body>
-      <!-- create your form here -->
+      
+      <form name="form">
+        Rotate by: <input text="rotate" name="rotate" ></input>
+        <textarea name ="textarea1"></textarea>
+      </form>
+
+
     </body>
 </html>"""
 
 
-@app.route("/", methods=['POST'])
-def encrypt(rot, text):
+#@app.route("/", methods=['POST'])
+#def encrypt(rot, text):
     
 
 
